@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: 	#DCDCDC;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+header img{
+    width: 46px;
+    margin-right: 20px;
+}
+header h1{
+    font-size: 42px;
+}
+
+form{
+    margin-bottom: 32px;
+}
+form, 
+form input{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+form input{
+    width: 270px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+form button{
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color: #00FF00;
+    border-radius: 10px;
+    border: none;
+}
+table{
+    width: 100%;
+}
+table th{
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+    padding: 16px;
+}
+table td{
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+}
+table tfoot td{
+    border: none;
+    font-weight: 600;
+}
+
